@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi","hello","hey","good morning","good evening","good afternoon",
+        "hi chatbot","hello bot","hey assistant","is anyone there"
+      ],
+      "responses": [
+        "Hello! Welcome to the College Student Assistant Chatbot. I can help you with admissions, exams, library, hostel, scholarships and placements.",
+        "Hi there! I am your college virtual assistant. Ask me anything related to campus facilities or student services."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "where is library","library location","college library",
+        "library timing","library hours","when does library open",
+        "library rules","borrow books","library access"
+      ],
+      "responses": [
+        "The college library is located in Block B on the second floor. Students can borrow books using their college ID card.",
+        "Our library provides textbooks, journals, and digital resources. It is open from 9 AM to 6 PM on weekdays."
+      ]
+    },
+
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam schedule","exam dates","when are exams","semester exams",
+        "mid exams","final exams","exam timetable",
+        "exam notification","how to check exam dates"
+      ],
+      "responses": [
+        "Semester exams usually take place in December and May. Please check the college website or academic notice board for the official timetable.",
+        "Exam schedules are generally announced one month before the exam period."
+      ]
+    },
+
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel details","hostel apply","hostel facilities",
+        "hostel rooms","girls hostel","boys hostel",
+        "hostel fees","hostel admission"
+      ],
+      "responses": [
+        "The college provides separate hostel facilities for boys and girls with WiFi, study rooms and dining facilities.",
+        "Students can apply for hostel accommodation through the administration office."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission process","college admission","how to apply admission",
+        "admission requirements","apply for college","new admission",
+        "application form","admission eligibility","joining procedure"
+      ],
+      "responses": [
+        "Students can apply for admission through the official college website or by visiting the admission office.",
+        "Admission requires submitting academic certificates, identity proof and completing the application form."
+      ]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee details","college fees","tuition fees",
+        "semester fee","payment of fees","fee structure",
+        "how to pay fees","fee payment method"
+      ],
+      "responses": [
+        "The college fee structure depends on the course and department. Students can check the official website or contact the accounts office.",
+        "Fees can be paid online through the college portal or at the accounts section of the administration block."
+      ]
+    },
+
+    {
+      "tag": "principal",
+      "patterns": [
+        "principal name","who is the principal",
+        "college principal","name of principal",
+        "who is head of college"
+      ],
+      "responses": [
+        "The principal is the head of the college and is responsible for academic administration and management.",
+        "For the latest information about the principal, please check the official college website."
+      ]
+    },
+
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement cell","college placements",
+        "placement office","placement support",
+        "companies visiting college",
+        "campus placements","job placements"
+      ],
+      "responses": [
+        "The placement cell helps students get internship and job opportunities by connecting with companies.",
+        "Students can register with the placement office to receive updates about campus recruitment drives."
+      ]
+    },
+
+    {
+      "tag": "department_office",
+      "patterns": [
+        "department office","where is department office",
+        "hod office","department help",
+        "contact department","department location"
+      ],
+      "responses": [
+        "Each department has its own office where students can contact faculty members or the Head of Department for academic help.",
+        "Department offices are usually located within the respective academic blocks."
+      ]
+    },
+
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship details","college scholarships",
+        "how to apply scholarship","scholarship eligibility",
+        "government scholarship","financial aid"
+      ],
+      "responses": [
+        "Students can apply for scholarships based on merit or financial need through the scholarship section of the college portal.",
+        "Government scholarships and private scholarships are available. Please contact the student welfare office for assistance."
+      ]
+    },
+
+    {
+      "tag": "canteen",
+      "patterns": [
+        "canteen location","college canteen",
+        "canteen timing","food in college",
+        "lunch in college","canteen menu"
+        
+      ],
+      "responses": [
+        "The college canteen is located near the main academic block and serves meals and snacks.",
+        "Canteen operates from 8 AM to 5 PM with affordable food options for students."
+        
+      ]
+    }
+  ]
+}
